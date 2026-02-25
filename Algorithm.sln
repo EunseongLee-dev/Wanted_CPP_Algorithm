@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "InsertionSort", "InsertionS
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\QuickSort.vcxproj", "{610E0BF0-3786-4ECC-888C-2DDC6E134687}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{6184B847-1624-4357-B65A-9B1C722806E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -45,6 +47,10 @@ Global
 		{610E0BF0-3786-4ECC-888C-2DDC6E134687}.Debug|x64.Build.0 = Debug|x64
 		{610E0BF0-3786-4ECC-888C-2DDC6E134687}.Release|x64.ActiveCfg = Release|x64
 		{610E0BF0-3786-4ECC-888C-2DDC6E134687}.Release|x64.Build.0 = Release|x64
+		{6184B847-1624-4357-B65A-9B1C722806E8}.Debug|x64.ActiveCfg = Debug|x64
+		{6184B847-1624-4357-B65A-9B1C722806E8}.Debug|x64.Build.0 = Debug|x64
+		{6184B847-1624-4357-B65A-9B1C722806E8}.Release|x64.ActiveCfg = Release|x64
+		{6184B847-1624-4357-B65A-9B1C722806E8}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
