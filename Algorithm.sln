@@ -17,6 +17,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QuickSort", "QuickSort\Quic
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MergeSort", "MergeSort\MergeSort.vcxproj", "{6184B847-1624-4357-B65A-9B1C722806E8}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "HeapSort", "HeapSort\HeapSort.vcxproj", "{BF0A3335-F926-41B2-91EF-0B00E5D7F06D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AStarPathFinding", "AStarPathFinding\AStarPathFinding.vcxproj", "{1D5F97EC-0DBF-436D-93C7-1A79A89AB83B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +55,14 @@ Global
 		{6184B847-1624-4357-B65A-9B1C722806E8}.Debug|x64.Build.0 = Debug|x64
 		{6184B847-1624-4357-B65A-9B1C722806E8}.Release|x64.ActiveCfg = Release|x64
 		{6184B847-1624-4357-B65A-9B1C722806E8}.Release|x64.Build.0 = Release|x64
+		{BF0A3335-F926-41B2-91EF-0B00E5D7F06D}.Debug|x64.ActiveCfg = Debug|x64
+		{BF0A3335-F926-41B2-91EF-0B00E5D7F06D}.Debug|x64.Build.0 = Debug|x64
+		{BF0A3335-F926-41B2-91EF-0B00E5D7F06D}.Release|x64.ActiveCfg = Release|x64
+		{BF0A3335-F926-41B2-91EF-0B00E5D7F06D}.Release|x64.Build.0 = Release|x64
+		{1D5F97EC-0DBF-436D-93C7-1A79A89AB83B}.Debug|x64.ActiveCfg = Debug|x64
+		{1D5F97EC-0DBF-436D-93C7-1A79A89AB83B}.Debug|x64.Build.0 = Debug|x64
+		{1D5F97EC-0DBF-436D-93C7-1A79A89AB83B}.Release|x64.ActiveCfg = Release|x64
+		{1D5F97EC-0DBF-436D-93C7-1A79A89AB83B}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
