@@ -70,7 +70,7 @@ private:
 	bool IsDivided();
 
 	// 전달된 영역과 겹치는 영역을 반환하는 함수
-	NodeIndex TestRegin(const Bounds& bounds);
+	NodeIndex TestRegion(const Bounds& bounds);
 
 	// 전달한 영역이 포함되거나 거치는 영역을 모두 구할 때 사용하는 함수
 	std::vector<NodeIndex> GetQuads(const Bounds& bounds);

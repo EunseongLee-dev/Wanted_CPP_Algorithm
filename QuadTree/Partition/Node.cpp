@@ -20,7 +20,7 @@ void Node::Insert(Node* node)
     }
 
     // 겹치는 영역 확인
-    NodeIndex result = TestRegin(node->GetBounds());
+    NodeIndex result = TestRegion(node->GetBounds());
 
     // 두 개 이상 영역에 겹치는 경우에는 현재 노드에 추가
     if (result == NodeIndex::Straddling)
@@ -154,8 +154,8 @@ bool Node::Subdivide()
         bottomRight = new Node(
             Bounds(x + halfWidth, y + halfHeight, halfWidth, halfHeight), depth + 1);
 
-
     }
+
     return true;
 }
 
@@ -166,7 +166,7 @@ bool Node::IsDivided()
     return topLeft != nullptr;
 }
 
-NodeIndex Node::TestRegin(const Bounds& bounds)
+NodeIndex Node::TestRegion(const Bounds& bounds)
 {
     // 전달된 bounds와 겹치는 4분면 목록 확인
     std::vector<NodeIndex> quads = GetQuads(bounds);
